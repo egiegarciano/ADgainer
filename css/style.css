@@ -1,0 +1,37 @@
+body{
+    font-family: Filson pro;
+}
+
+.wrapper{
+    background: #062935 url(/img/img1.png) no-repeat center;
+    background-size: cover;
+}
+
+.top-page-section .container{
+    margin: 0 4rem 0 4rem;
+}
+
+.top-page-section h2{
+    color: #E5E5E5;
+    font-size: 30px;
+    margin-top: 2rem;
+}
+
+.top-page-section h4{
+    color: #F6C418;
+    font-size: 18px;
+    padding: .5rem;
+}
+
+.top-page-section p{
+    color: #DFF1F6;
+    font-size: 14px;
+    padding: .5rem;
+}
+
+/* .boxes{
+    margin-right: .5rem;
+} */
+.column1{
+    background-image: url(/img/img2.png);
+}
