@@ -39,15 +39,15 @@ body{
     background: #062935 url(/img/img1.png) no-repeat center;
     background-size: cover;
 }
-/* 
-.top-page-section .container{
-    margin: 0 4rem!important;    
-} */
+
+.top-page-section .container-xs{
+    margin: 0 4.5rem;    
+}
 
 .top-page-section h2{
     color: #E5E5E5;
     font-size: 30px;
-    margin: 2rem 0 2rem 0;
+    margin: 2.5rem 0 2rem 0;
     font-weight: 800;
     line-height: 41px;
     color: #E5E5E5;
@@ -56,7 +56,7 @@ body{
 .top-page-section h4{
     color: #F6C418;
     font-size: 18px;
-    padding-left: .5rem;
+    margin-left: 1rem;
     font-weight: 800;
     line-height: 24.53px;
 }
@@ -64,7 +64,8 @@ body{
 .top-page-section p{
     color: #DFF1F6;
     font-size: 14px;
-    padding: 0 .5rem 0 .5rem;
+    padding-right: 2rem;
+    margin-left: 1rem;
     line-height: 20px;
     color: #DFF1F6;
 }
@@ -88,7 +89,9 @@ body{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    padding: 0 12.5rem 0 12.5rem;
+    width: 713px;
+    margin: auto;
+    padding-bottom: 1rem;
 }
 
 .top-page-section2 hr{
@@ -104,22 +107,31 @@ body{
     background-size: cover;
 }
 
+.cards-section-page .container-xs{
+    margin: 0 5rem;
+}
+
 .cards-section-page .card{
-    width: 368px;
+    width: 391px;
     margin-bottom: -100px;
-    margin-top: 5rem;
+    margin-top: 5.5rem;
     border-radius: 4px;
-    height: 500px;
+    height: 516px;
     border: none;
     z-index: 1;
     position: relative;
 }
 
+.cards-section-page .col-md-4{
+    padding-left: 10px;
+    padding-right: 0px;
+}
 .cards-section-page .card-body h4{
     font-size: 24px;
     font-weight: 800;
     line-height: 32.71px;
     color: #001A28;
+    padding: 5px;
 }
 
 .cards-section-page .card-body p{
@@ -127,6 +139,7 @@ body{
     font-weight: 400;
     line-height: 20px;
     color: #5A5A5A;
+    padding: 5px;
 }
 
 .cards-section-page .card-body a{
@@ -151,6 +164,10 @@ body{
 .wrapper.case-studies-page{
     background: #062935 url(/img/img1.png) no-repeat center;
     background-size: cover;
+}
+
+.case-studies-page .container-xs{
+    margin: 0 6rem;
 }
 
 .case-studies-page h3{
@@ -180,12 +197,16 @@ body{
     font-size: 12px;
     line-height: 20px;
     color: #FF0000;
-    padding-right: .5rem;
-}
+    padding-right: 4rem;
+}    
 
 .case-studies-page hr{
-    width: 350px;
+    width: 300px;
     height: 2px;
     background-color: #F6C418;
     border: none;
+    margin: 1rem 0 1rem 0;
+}
+.case-studies-page .boxes{
+    width: 358px;
 }
