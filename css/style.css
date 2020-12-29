@@ -350,6 +350,85 @@ body{
     color: #FFF;
     padding: 12px 53px;
 }
+/* Create your free account */
+.create-account-page{
+    background: url(/img/regis-suc-bg.png) no-repeat center;
+    background-size: cover;
+    padding: 106px 0 113px 0;
+}
+
+.create-account-page .container{
+    padding: 0 316px 0 195px;
+}
+
+.create-account-page__tit{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 25px;
+    color: #363636;
+    margin-bottom: 49px;
+}
+
+.create-account-page label{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+    margin-bottom: 14px;
+}
+
+.create-account-page input{
+    font-size: 18px;
+    line-height: 25px;
+    color: #9F9F9F;
+    border: 2px #F6C418 solid;
+    border-radius: 4px;
+}
+
+.create-account-page button{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 13px 0 34px 0;
+    padding: 9px 32px;
+    color: #FFF;
+    background-color: #F6C418;
+    border: none;
+    border-radius: 4px;
+}
+
+.create-account-page__terms{
+    font-size: 18px;
+    line-height: 25px;
+    color: #9F9F9F;
+    margin-bottom: 29px;
+}
+
+.create-account-page__media{
+    margin-bottom: 30px;
+}
+
+.create-account-page__media a{
+    font-size: 15px;
+    font-weight: 425;
+    line-height: 25px;
+    color: #9F9F9F;
+    font-style: italic;
+    text-decoration: underline;
+    padding: 0 20px 0 5px;
+    margin-bottom: 0;
+}
+
+.account-page__log-in, .account-page__log-in a{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #363636;
+}
+
+.account-page__log-in a{
+    text-decoration: underline;
+}
 
 /* Registration Successful page */
 .regis-suc-page{
@@ -547,17 +626,30 @@ body{
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
+    /* Create account page  */
+    .create-account-page .container{
+        padding: 0;
+    }
+
     /* Registration successful page */
     .regis-suc-page p{
         padding: 0 60px;
     }
 }
 @media (max-width: 768px) {
+    .create-account-page .container{
+        padding: 0;
+    }
+    
     .regis-suc-page p{
         padding: 0;
     }
 }
 @media (max-width: 576px) {
+    .create-account-page .container{
+        padding: 0 4rem;
+    }
+    
     .regis-suc-page p{
         padding: 0;
     }
