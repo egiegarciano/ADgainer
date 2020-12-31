@@ -372,7 +372,7 @@ body{
 .create-account-page{
     background: url(/img/regis-suc-bg.png) no-repeat center;
     background-size: cover;
-    padding: 106px 0 113px 0;
+    padding: 199px 0 94px 0;
 }
 
 .create-account-page .container{
@@ -452,7 +452,7 @@ body{
 .regis-suc-page{
     background: url(/img/regis-suc-bg.png) no-repeat center;
     background-size: cover;
-    padding: 151px 0 160px 0;
+    padding: 272px 0 160px 0;
 }
 
 .regis-suc-page h1{
@@ -848,9 +848,18 @@ body{
     text-decoration: none;
 }
 
-.footer-page2 .box-right .main-footer__email {
-    text-align: initial;
-    padding-left: 160px;
+.footer-page2 .main-footer__email {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-page2 .main-footer__email a{
+    padding-right: 20px;
+}
+
+.footer-page2 .main-footer__email a:nth-child(2){
+    padding-right: 41px;
 }
 
 .footer-page2 .media-icons img{
@@ -910,9 +919,6 @@ body{
         padding: 0 80px 50px 80px;
     }
 
-    .footer-page2 .box-right .main-footer__email {
-        padding-left: 40px;
-    }
 }   
 
 @media (max-width: 768px) {
@@ -962,8 +968,6 @@ body{
     .footer-page2 .box-right .main-footer__email {
         text-align: initial;
         padding-left: 1rem;
-        display: flex;
-        flex-direction: column;
     }
 
     .footer-page2 .box-left{
