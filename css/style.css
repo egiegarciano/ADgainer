@@ -1,6 +1,146 @@
 body{
     font-family: filson-pro, sans-serif;
+    background: #062935;
+}
 
+/* Carousel controls  */
+/* #adgainer-carousel{
+    padding: 50px 0;
+} */
+
+.carousel-control-prev__width{
+    width: 25px;
+    height: 25px;
+    margin: auto 0 auto 31px;
+}
+
+.carousel-control-next__width{
+    width: 25px;
+    height: 25px;
+    margin: auto 31px auto 0;
+}
+
+.prev-angle-left, .next-angle-right{
+    background-color: #F6C418;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.prev-angle-left i, .next-angle-right i{
+    color: #001A28;
+    font-weight: 700;
+    font-size: 25px;  
+}
+
+.prev-angle-left i{
+    padding-right: 2px;
+}
+
+.next-angle-right i{
+    padding-left: 2px;  
+}
+
+/* Carousel first slide  */
+.adgainer-first-slide{
+    background: #F6C418 url(/img/Carousel/first-slide-bg.png) no-repeat center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.first-slide-img{
+    position: relative;
+}
+
+.first-slide-img img{
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+}
+
+.carousel-boxes{
+    background-color: #062935;
+    padding: 83px 125px 36px 84px;
+}
+
+.carousel-boxes__text h3{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #F6C418;
+    margin-bottom: 8px;
+}
+
+.carousel-boxes__text p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 47px;
+}
+
+/* Carousel second slide  */
+.adgainer-second-slide {    
+    background: #F6C418 url(/img/Carousel/first-slide-bg.png) no-repeat center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+/* Carousel third slide */
+.adgainer-third-slide{
+    background: #062935;
+}
+
+.second-slide__text, .third-slide__text{
+    background: #062935;
+    padding: 68px 193px 51px 90px;
+}
+
+.third-slide__text{
+    padding: 88px 193px 72px 90px;
+}
+
+.second-slide__text h3, .third-slide__text h3{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    color: #F6C418;
+    margin-bottom: 23px;
+}
+
+.third-slide__text h3{
+    line-height: 33px;
+}
+
+.second-slide__text p, .third-slide__text p{
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+p.text_line-height{
+    line-height: 30px;
+}
+
+.second-slide__text hr, .third-slide__text hr{
+    width: 100px;
+    height: 2px;
+    background: #F6C418;
+    margin: 20px 0 18px 0;
+}
+
+.third-slide__text hr{
+    margin: 27px 0 27px 0;
+}
+
+.second-slide__img{
+    position: relative;
+}
+
+.second-slide__img img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 /* Top page buttons */
