@@ -845,6 +845,77 @@ p.text_line-height{
     padding-top: 26px;
 }
 
+/* Blogs */
+.blog__section{
+    background: url(/img/regis-suc-bg.png) no-repeat center;
+    background-size: cover;
+    padding: 136px 0 186px 0;
+}
+
+.blog-post{
+    margin: 0;
+}
+
+.blog-post__title{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #F6C418;
+    margin-bottom: 26px;
+}
+
+.blog-post__author-date{
+    font-size: 18px;
+    line-height: 25px;
+    color: #888888;
+    margin-bottom: 25px;
+    border: 2px solid #E8E8E8;
+    display: inline-block;
+    padding: 7px 284px 7px 18px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.blog-post--font20{
+    font-size: 20px;
+}
+
+.blog-post--font18{
+    font-size: 18px;
+}
+
+.blog-post--font12{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.blog-post__text{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #434343;
+    margin-bottom: 22px;
+}
+
+.blog-post__btn{
+    background-color: #F6C418;
+    border-radius: 4px;
+    border: none;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 9px 22px;
+}
+
+.blog__section hr{
+    border: 1px solid #E8E8E8;
+    width: 100%;
+    margin: 30px 0;
+}
+
+
+
 /* footer  */
 .footer-page{
     background:#F6CA2F url(/img/footer-yellow.png) no-repeat center;
@@ -977,6 +1048,7 @@ p.text_line-height{
     justify-content: flex-end;
     align-items: flex-end;
     bottom: -3rem;
+    padding-right: 0;
 }
 
 .footer-page2 .box-right a{
