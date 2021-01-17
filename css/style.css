@@ -916,7 +916,7 @@ p.text_line-height{
 
 /* FAQs accordion */
 .faq-sec{
-    background: url(/img/regis-suc-bg.png) no-repeat center;
+    background: url(/img/regis-suc-bg.png) no-repeat fixed;
     background-size: cover;
     padding: 76px 0 154px 0;
 }
