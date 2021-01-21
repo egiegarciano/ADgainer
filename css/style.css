@@ -143,6 +143,74 @@ p.text_line-height{
     bottom: 0;
 }
 
+/* image slider part two */
+
+#adgainer-carousel-partTwo .adgainer-first-slide,
+#adgainer-carousel-partTwo .adgainer-second-slide,
+#adgainer-carousel-partTwo .adgainer-third-slide{
+    background: url(/img/Carousel/image-slider-bg-two.png) no-repeat center;
+    background-size: cover;
+}
+
+#adgainer-carousel-partTwo .carousel-box{
+    background-color: #F5F5F5;
+    padding: 61px 61px 29px 51px;
+}
+
+#adgainer-carousel-partTwo .carousel__header{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #F6C418;
+    margin-bottom: 25px;
+    padding-right: 48px;
+}
+
+#adgainer-carousel-partTwo .carousel__body-text{
+    font-weight: 425px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #434343;
+    margin-bottom: 25px;
+    padding-right: 33px;
+}
+
+#adgainer-carousel-partTwo .carousel-box__btn{
+    margin-bottom: 33px;
+    background-color: #F6C418;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    border: none;
+    border-radius: 4px;
+    padding: 7px 25px;
+}
+
+#adgainer-carousel-partTwo .carousel-authorDate{
+    border-top: 2px solid #E8E8E8;
+    border-bottom: 2px solid #E8E8E8;
+
+}
+
+#adgainer-carousel-partTwo .author{
+    font-size: 18px;
+    line-height: 25px;
+    color: #888888;
+    margin: 6px 0 2px 0;
+}
+
+#adgainer-carousel-partTwo .date{
+    font-size: 12px;
+    line-height: 25px;
+    color: #888888;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+
+
+
 /* Top page buttons */
 .btn-top{
     background-color: #F6C418;
@@ -1361,6 +1429,10 @@ p.text_line-height{
     .blog-post__author-date{
         padding-right: 18px;
     }
+
+    .card-img--container img{
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 576px) {
@@ -1444,5 +1516,11 @@ p.text_line-height{
 
     .blog-post__author-date{
         padding-right: 18px;
+    }
+
+    .adgainer-office-section .card,
+    .pricing-plans-cards-sec a,
+    .case-study-cards-sec .card{
+        margin-bottom: 1.5rem;
     }
 }
