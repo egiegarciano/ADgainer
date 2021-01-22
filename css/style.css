@@ -167,7 +167,7 @@ p.text_line-height{
 }
 
 #adgainer-carousel-partTwo .carousel__body-text{
-    font-weight: 425px;
+    font-weight: 425;
     font-size: 15px;
     line-height: 25px;
     color: #434343;
@@ -1042,73 +1042,142 @@ p.text_line-height{
 
 /* Blogs */
 .blog__section{
-    background: url(/img/regis-suc-bg.png) no-repeat center;
+    background: url(/img/blog/blog-post-bg.png) no-repeat center;
     background-size: cover;
-    padding: 136px 0 186px 0;
+    padding: 117px 0 114px 0;
+    background-blend-mode: overlay;
 }
 
-.blog-post{
-    margin: 0;
+.blog__section .card{
+    border-radius: 0;
+    border: none;
+    background-color: #F6F6F6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.blog-post__title{
+.blog__section img{
+    border-radius: 0;
+}
+
+.blog__section .card-body{
+    padding: 33px 41px 18px 24px;
+}
+
+.blog__section .card-title {
     font-weight: 700;
-    font-size: 25px;
+    font-size: 22px;
     line-height: 30px;
-    color: #F6C418;
-    margin-bottom: 26px;
+    color: #001A28;
+    margin-bottom: 19px;
 }
 
-.blog-post__author-date{
-    font-size: 18px;
+.blog__section .card-text{
+    font-size: 12px;
+    line-height: 20px;
+    color: #5A5A5A;
+    margin-bottom: 23px;
+}
+
+.blog__section .card-body a{
+   float: right;
+   font-size: 15px;
+   line-height: 20px;
+   color: #001A27;
+}
+
+.blog__section .card-body i{
+    padding-left: 10px;
+}
+
+.blog__section .card-footer{
+    background-color: #F6F6F6;
+    margin: 8px 41px 18px 28px;
+    padding: 8px 0 0 0;
+    border-top: 1px solid #979797;
+    color: #888888;
+    display: flex;
+    flex-direction: row;
+    line-height: 25px;
+    justify-content: space-between;
+}
+
+.blog__section .author{
+    font-size: 15px;
+}
+
+.blog__section .date{
+    font-size: 10px;
+}
+
+.blog__section .vr{
+    border-left: 1px solid #888888;
+    height: 20px;
+    align-self: center;
+}
+
+/* Article page  */
+.article-page {
+    background: url(/img/blog/blog-post-bg.png) no-repeat center;
+    background-size: cover;
+    padding: 94px 0 102px 0;
+}
+
+.article-page .authorDate {
+    border-radius: 5px;
+    border: 2px solid #E8E8E8;
+    margin-bottom: 33px;
+    padding: 8px 18px;
     line-height: 25px;
     color: #888888;
-    margin-bottom: 25px;
-    border: 2px solid #E8E8E8;
-    display: inline-block;
-    padding: 7px 284px 7px 18px;
-    border-radius: 5px;
-    width: 100%;
 }
 
-.blog-post--font20{
+.article-page .font20{
+    font-size: 18px;
+}
+
+.article-page .author{
     font-size: 20px;
 }
 
-.blog-post--font18{
-    font-size: 18px;
-}
-
-.blog-post--font12{
+.article-page .date{
     font-size: 12px;
     font-weight: 500;
 }
 
-.blog-post__text{
-    font-weight: 500;
+.article-page .blog-post__title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #F6C418;
+    margin-bottom: 44px;
+}
+
+.article-page p{
+    font-weight: 425;
     font-size: 15px;
-    line-height: 20px;
+    line-height: 25px;
     color: #434343;
-    margin-bottom: 22px;
 }
 
-.blog-post__btn{
-    background-color: #F6C418;
-    border-radius: 4px;
-    border: none;
-    font-size: 20px;
-    line-height: 27px;
+.article-page .blog-post__sub-title{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 20px;
+    color: #F6C418;
+    margin-bottom: 30px;
+}
+
+.article-page img{
+    margin-bottom: 63px;
+}
+
+.article-page .text--yellow{
     font-weight: 500;
-    color: #FFFFFF;
-    padding: 9px 22px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #F6C418;
+    margin-bottom: 23px;
 }
-
-.blog__section hr{
-    border: 1px solid #E8E8E8;
-    width: 100%;
-    margin: 30px 0;
-}
-
 /* FAQs accordion */
 .faq-sec{
     background: url(/img/regis-suc-bg.png) no-repeat fixed;
@@ -1172,7 +1241,7 @@ p.text_line-height{
     padding: 31px 0 24px 0;
 }
 
-.footer-page .contacts-info p{
+.footer-page .contacts-info a{
     font-size: 25px;
     line-height: 34px;
     color: #001A27;
@@ -1433,6 +1502,28 @@ p.text_line-height{
     .card-img--container img{
         max-width: 100%;
     }
+
+    .footer-links .box-left .col-lg-5 h3{
+        line-height: 25px;
+    }
+
+    .footer-page .contacts-info a{
+        font-size: 22px;
+    }
+
+    #adgainer-carousel-partTwo .carousel-box{
+        padding-left: 61px;
+    }
+
+    #adgainer-carousel-partTwo .carousel__header,
+    #adgainer-carousel-partTwo .carousel__body-text{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #adgainer-carousel-partTwo .carousel-box__btn{
+        margin-left: 40px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -1500,7 +1591,6 @@ p.text_line-height{
         border-right: none;
     }
 
-    
     .top-plan-section .box_margin-top{
         margin-top: 80px;
     }
@@ -1518,9 +1608,21 @@ p.text_line-height{
         padding-right: 18px;
     }
 
+    .footer-links .box-left .col-lg-5 h3{
+        line-height: 25px;
+    }
+
     .adgainer-office-section .card,
     .pricing-plans-cards-sec a,
     .case-study-cards-sec .card{
         margin-bottom: 1.5rem;
+    }
+
+    .footer-page .contacts-info a{
+        font-size: 25px;
+    }
+
+    .footer-page .arrow-up{
+        display: none;
     }
 }
