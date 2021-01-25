@@ -211,7 +211,7 @@ p.text_line-height{
 
 
 
-/* Top page buttons */
+/* Top page section buttons */
 .btn-top{
     background-color: #F6C418;
     border-radius: 50px;
@@ -241,7 +241,7 @@ p.text_line-height{
     background-color: #d1c9ad;
 }
 
-/* Top Page Section */
+/* Top Page Section 2*/
 .top-page-section{
     background: #062935 url(/img/img1.png) no-repeat center;
     background-size: cover;
@@ -362,7 +362,7 @@ p.text_line-height{
     line-height: 20px;
 }
 
-/* Top Page Section 2 */
+/* Top Page Section 3 */
 .top-page-section2{
     background: url(/img/img2.png) no-repeat center;
     background-size: cover;
@@ -588,7 +588,7 @@ p.text_line-height{
     margin: 0;
 }
 
-/* top page section */
+/* Plan page section */
 
 .top-banner-section{
     background: url(/img/banner1.png) no-repeat center;
