@@ -208,9 +208,68 @@ p.text_line-height{
     margin-bottom: 6px;
 }
 
+/* Topmost page section */
+.topmost-page-section {
+    background: url(/img/topmost-page-section-bg.png) no-repeat center;
+    background-size: cover;
+    padding: 216px 0 112px 0;
+}
 
+.topmost-page-section .bg--color{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 43px 0 42px 60px;
+    margin-bottom: 39px;
+}
 
+.topmost-page-section .bg--color h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 45px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
 
+.topmost-page-section .bg--color p{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.topmost-page-section .contact-info {
+    color: #FFFFFF;
+    font-size: 18px;
+    padding-left: 60px;
+}
+
+.topmost-page-section .contact-info .text--height{
+    line-height: 25px;
+    display: block;
+}
+
+.topmost-page-section .contact-info__tel{
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    display: block;
+}
+
+.topmost-page-section .btn__topmost{
+    padding-left: 35px;
+}
+
+.topmost-page-section .btn__topmost a{
+    background-color: #F6CA2F;
+    border-radius: 50px;
+    padding: 15px 25px;
+    line-height: 20px;
+    color: #001A28;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+}
 /* Top page section buttons */
 .btn-top{
     background-color: #F6C418;
